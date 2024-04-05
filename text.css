@@ -1,0 +1,283 @@
+body{
+   background-image: url("img/fon.jpg") ;
+}
+
+.ckazka,.multfilm{
+    border: none;
+    padding: 2px;
+    color: #f0ffff;
+    padding: 5px 10px;
+    background: white;
+    font-size: 24px;
+    border-radius: 6px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.rectengle{
+   text-align: center;
+}
+.kids {
+    text-decoration: none;
+    color: #3a0572;
+}
+.kids:active{
+    color: #492ec2;
+}
+
+.kids:hover {
+    color: #f2b8b8;
+    transition: 0.5s;
+}
+
+img{
+    width: 200px;
+}
+
+.Log{
+    justify-content: left;
+    align-self: center ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.Nad {
+    font-size: 40px;
+    color:#3a0572;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.cartoon {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 6%;
+    background-color: #c1bbe7;
+    padding: 15px;
+    padding-top: 10px;
+    margin-top:60px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.skazki {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 6%;
+    background-color: #c1bbe7;
+    padding: 15px;
+    padding-top: 10px;
+    margin-top:60px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.content {
+    text-decoration: none;
+    color: #910f98;
+   
+}
+.content2 {
+    text-decoration: none;
+    color: #5d0b0b;
+    margin-right: 50px;
+   
+}
+
+.content:hover{
+    color: #ae52e7;
+    margin-bottom: 20px;
+}
+.content2:hover{
+    color: #0d063b;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #38054e;
+}
+.images{
+    text-align: center;
+    margin-top: -260px;
+    margin-left:45%;
+   
+}
+.sait{
+  text-decoration: none;
+    border: none;
+    padding: 2px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-right: 100px;
+    margin-left: 40px;
+
+}
+   .btnn {
+    padding: 5px 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #b0b0b0;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  
+  .btnn:hover {background-color: #211674}
+  
+  .btnn:active {
+    background-color: #5944ac;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .registr {
+    padding: 5px 15px;
+    font-size: 20px;
+    color: #485de7;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #b0b0b0;
+    margin-left: 80px;
+    width: 300px;
+    height: 40px;
+  }
+  .registr:hover {background-color: #211674}
+  
+  .registr:active {
+    background-color: #5944ac;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .dialog {
+    display: flex;
+    margin: 20px;
+}
+.que{
+    font-size: 30px;
+}
+ .btn{
+        padding: 5px 15px;
+        font-size: 20px;
+        cursor: pointer;
+        outline: none;
+        color: #600f0f;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 15px;   
+    }
+   
+  input[type=text], input[type=password] {
+  width: 1300px;
+  padding: 15px;
+  margin: 2px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 600px;
+ 
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+
+.container {
+  padding: 16px;
+}.modal {
+  display: none; 
+  position: fixed;
+  top:0;
+  left:0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(85, 21, 127, 0.7);
+  padding-top: 50px;
+  z-index: 2;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.zagadki{
+  margin-left: 595px;
+}
+
+.btnZagad {
+  padding: 5px 15px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #b0b0b0;
+  margin-left: 50px;
+  margin-right: 60px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.btnZagad:hover {background-color: #211674}
+
+.btnZagad:active {
+  background-color: #5944ac;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
