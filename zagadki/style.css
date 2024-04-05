@@ -1,0 +1,123 @@
+body{
+    background-image: url(../zagadki/фон.jpeg);
+   
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+img{
+    width: 200px;
+}
+
+.Log{
+    justify-content: left;
+    align-self: center ;
+   
+}
+.Nad {
+    font-size: 40px;
+    color:#3a0572;
+    font-style: italic;
+    margin-left: 20px;
+}
+.sait a{
+    text-decoration: none;
+    border: none;
+    padding: 2px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+
+.btnn {
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #b0b0b0;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  
+  .btnn:hover {background-color: #211674}
+  
+  .btnn:active {
+    background-color: #5944ac;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.conteiner{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(226, 234, 234);
+    box-shadow: 2px 2px 2px 2px rgb(92, 90, 100);
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-left: 100px;
+
+}
+.dialog p{
+    font-size: 18px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 20px
+}
+
+#result{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(120, 12, 132);
+    margin-top: -50px;
+    margin-left: 750px;
+    width: 200px;
+   
+}
+#image{
+    display: none;
+    margin-top: -220px;
+    margin-left: 600px;
+    width:250px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.conteiner2{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(226, 234, 234);
+    box-shadow: 2px 2px 2px 2px rgb(92, 90, 100);
+    border-radius: 20px;
+    margin-top: 99px;
+    margin-left:100px;
+}
+.conteiner2 #image2{
+    display: none;
+    margin-top: -270px;
+    margin-left: 600px;
+    width:250px;
+    height: 250px;
+}
+#result2{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(120, 12, 132);
+    margin-top: -80px;
+    margin-left: 750px;
+    width: 200px;
+    
+}
+input{
+    margin-top: 20px;
+}
